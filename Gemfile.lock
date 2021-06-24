@@ -1293,6 +1293,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-18
+  x86_64-darwin-20
 
 DEPENDENCIES
   aws-sdk (~> 3)

@@ -33,8 +33,11 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'aws-sdk', '~> 3'
 gem 'react-rails'
 
+gem 'rubocop'
 
+gem 'byebug'
 
+gem 'rails-controller-testing'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

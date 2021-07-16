@@ -1168,7 +1168,16 @@ GEM
     crass (1.0.6)
     diff-lcs (1.4.4)
     erubi (1.10.0)
+    ethon (0.14.0)
+      ffi (>= 1.15.0)
     execjs (2.8.0)
+    factory_bot (6.2.0)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.2.0)
+      factory_bot (~> 6.2.0)
+      railties (>= 5.0.0)
+    faker (2.18.0)
+      i18n (>= 1.6, < 2)
     ffi (1.15.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -1251,6 +1260,7 @@ GEM
       tilt
     regexp_parser (2.1.1)
     rexml (3.2.5)
+    ripper-tags (0.9.0)
     rspec-core (3.10.1)
       rspec-support (~> 3.10.0)
     rspec-expectations (3.10.1)
@@ -1281,6 +1291,7 @@ GEM
       parser (>= 3.0.1.1)
     ruby-progressbar (1.11.0)
     rubyzip (2.3.0)
+    rufo (0.13.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -1308,6 +1319,8 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.0.0)
@@ -1341,6 +1354,9 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
+  factory_bot
+  factory_bot_rails
+  faker
   jbuilder (~> 2.7)
   listen (~> 3.3)
   mysql2 (~> 0.5)
@@ -1349,16 +1365,19 @@ DEPENDENCIES
   rails (~> 6.1.3, >= 6.1.3.2)
   rails-controller-testing
   react-rails
+  ripper-tags
   rspec-rails (~> 5.0.0)
   rubocop
+  rufo
   sass-rails (>= 6)
   selenium-webdriver
   spring
   turbolinks (~> 5)
+  typhoeus
   tzinfo-data
   web-console (>= 4.1.0)
   webdrivers
-  webpacker (~> 5.0)
+  webpacker
 
 RUBY VERSION
    ruby 3.0.1p64

@@ -35,9 +35,13 @@
     "roots": [
       "test/javascript"      
     ],
+    "modulePaths": [
+      "<rootDir>/app/javascript/components"
+    ],
     "moduleDirectories": [
       "node_modules",
-      "app/javascript"
+      "app/javascript",
+      "app/javascript/components"
     ]
   }
 }

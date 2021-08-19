@@ -35,7 +35,6 @@ gem 'react-rails'
 #Customized gems for the project
 gem 'aws-sdk', '~> 3'
 
-
 gem 'rubocop'
 
 gem 'rails-controller-testing'
@@ -52,6 +51,7 @@ gem 'ripper-tags'
 
 gem 'rufo'
 
+gem 'awesome_print'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

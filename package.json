@@ -16,6 +16,8 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react_ujs": "^2.6.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "turbolinks": "^5.2.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
@@ -33,7 +35,7 @@
       "./node_modules/jest-enzyme/lib/index.js"
     ],
     "roots": [
-      "test/javascript"      
+      "test/javascript"
     ],
     "modulePaths": [
       "<rootDir>/app/javascript/components"
